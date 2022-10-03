@@ -1,0 +1,40 @@
+package br.com.voeairlines.treinamentopoo;
+
+/*import javax.swing.JOptionPane;
+
+public class Algoritmo24 {
+
+	private double fahrenheit , celsius;
+	
+	public void conversorTemp() {
+		
+		JOptionPane.WANTS_INPUT_PROPERTY //JOptionPane.SELECTION_VALUES_PROPERTY
+	}
+	/*System.out.print("Informe a temperatura em Fahrenheit para convertermos em Celsius: ");
+	fahrenheit = leia.nextDouble();
+	
+	celsius = (5 * (fahrenheit - 32)/9);
+	
+	System.out.printf("A temperatura em Celsius é %.2f graus Celsius", celsius);*/
+
+//}
+import javax.swing.JFrame;
+import javax.swing.JButton;
+import java.awt.FlowLayout;
+
+@SuppressWarnings("serial")
+public class Algoritmo24 extends JFrame{
+ private JButton ok,
+         cancelar;
+ 
+ public Algoritmo24(){
+  super("Criando botões");
+  setLayout( new FlowLayout() );
+
+  ok = new JButton("OK");
+  cancelar = new JButton("Cancelar");
+  add(ok);
+  add(cancelar);
+ }
+
+}

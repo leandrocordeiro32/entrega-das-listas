@@ -16,7 +16,7 @@ public class Principal {
 		
 		do {
 		int opcao = Integer.parseInt(JOptionPane.showInputDialog
-				(null, "Escolha uma opção de 1 a 26: " , "SENAI Taguatinga" , 1));
+				(null, "Escolha uma opção de 1 a 26: " , "LISTA DE EXERCÍCIO 1" , 1));
 		
 		switch(opcao) {
 		
@@ -92,6 +92,90 @@ public class Principal {
 		case 12:
 			
 			new Algoritmo12().imprimaMedia();
+			
+			break;
+			
+		case 13:
+			
+			new Algoritmo13().mediaPonderada();
+			
+			break;
+			
+		case 14:
+			
+			new Algoritmo14().saldoReajuste();
+			
+			break;
+			
+		case 15:
+			
+			new Algoritmo15().consumoEnergia();
+			
+			break;
+			
+		case 16:
+			
+			new Algoritmo16().imprimaNome();
+			
+			break;
+			
+		case 17:
+			
+			new Algoritmo17().infoRetangulo();
+			
+			break;
+			
+		case 18:
+			
+			new Algoritmo18().infoCirculo();
+			
+			break;
+			
+		case 19:
+			
+			new Algoritmo19().infoQuadrado();
+			
+			break;
+			
+		case 20:
+			
+			new Algoritmo20().infoParalelepipedo();
+			
+			break;
+			
+		case 21:
+			
+			new Algoritmo21().infoTriangulo();
+			
+			break;
+			
+		case 22:
+			
+			new Algoritmo22().infoLosango();
+			
+			break;
+			
+		case 23:
+			
+			new Algoritmo23().imprimaDados();
+			
+			break;
+			
+		case 24:
+			
+			new Algoritmo24().conversorTemp();
+			
+			break;
+			
+		case 25:
+			
+			new Algoritmo25().volumeLata();
+			
+			break;
+			
+		case 26:
+			
+			new Algoritmo26().calculaPrestacao();
 			
 			break;
 			

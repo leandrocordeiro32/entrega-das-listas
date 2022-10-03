@@ -10,7 +10,8 @@ public class Algoritmo02 {
 		
 		nome = JOptionPane.showInputDialog(null, "Informe seu nome: ", "SENAI Taguatinga", 3);
 		
-		JOptionPane.showMessageDialog(null, nome, "SENAI Taguatinga", 1);
+		JOptionPane.showMessageDialog(null, "Olá " + nome + ", espero que esteja bem!",
+				"SENAI Taguatinga", 1);
 	}
 
 }

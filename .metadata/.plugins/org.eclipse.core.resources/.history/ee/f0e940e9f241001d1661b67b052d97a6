@@ -1,0 +1,29 @@
+package br.com.voeairlines.treinamentopoo;
+
+import javax.swing.JOptionPane;
+
+public class Algoritmo16 {
+
+	private String nome;
+	private String caracter;
+	
+	public void imprimaNome() {
+		
+		nome = JOptionPane.showInputDialog(null, "Informe um nome: ", "SENAI Taguatinga", 3);
+		
+		caracter = nome.substring(0);
+		
+		JOptionPane.showMessageDialog(null, "NOME: " + nome +
+				"\nPRIMEIRO CARACTER" + caracter, "SENAI Taguatinga", 1);
+	}
+}
+/*
+ * Entrar com um nome e imprimir
+Todo nome
+Primeiro caractere
+Ultimo caractere
+Do primeiro ate o terceiro
+Quarto caractere
+Todos menos o primeiro
+Os dois últimos
+*/

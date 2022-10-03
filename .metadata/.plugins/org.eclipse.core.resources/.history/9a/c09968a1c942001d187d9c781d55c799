@@ -1,0 +1,22 @@
+package br.com.voeairlines.treinamentopoo;
+
+import javax.swing.JOptionPane;
+
+public class Algoritmo24 {
+
+	private double fahrenheit , celsius;
+	
+	public void conversorTemp() {
+		
+		JOptionPane.showInternalMessageDialog(null, 
+				"Bem vindo ao conversor de temperatura" +
+				"\nDeseja converter ", null, 0, null); //JOptionPane.SELECTION_VALUES_PROPERTY
+	}
+	/*System.out.print("Informe a temperatura em Fahrenheit para convertermos em Celsius: ");
+	fahrenheit = leia.nextDouble();
+	
+	celsius = (5 * (fahrenheit - 32)/9);
+	
+	System.out.printf("A temperatura em Celsius é %.2f graus Celsius", celsius);*/
+
+}

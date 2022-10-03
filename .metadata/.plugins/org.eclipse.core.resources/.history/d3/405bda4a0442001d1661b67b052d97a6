@@ -1,0 +1,23 @@
+package br.com.voeairlines.treinamentopoo;
+
+import javax.swing.JOptionPane;
+
+public class Algoritmo18 {
+
+	private double raio , diametro, area , perimetro;
+	
+	public void infoCirculo() {
+		
+		raio = Double.parseDouble(JOptionPane.showInputDialog(null, 
+				"Informe o valor do raio de um círculo: ", "SENAI Taguatinga", 3));
+		
+		diametro = raio * 2;
+
+		perimetro = Math.PI * diametro;
+
+		area = Math.PI * Math.pow(raio, 2);
+		
+		
+		
+	}
+}

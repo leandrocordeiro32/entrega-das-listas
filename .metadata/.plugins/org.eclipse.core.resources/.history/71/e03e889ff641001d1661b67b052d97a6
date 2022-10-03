@@ -1,0 +1,43 @@
+package br.com.voeairlines.treinamentopoo;
+
+import javax.swing.JOptionPane;
+
+public class Algoritmo16 {
+
+	private String nome , ultimo , caracter13;
+	private char caracter1 , caracter4;
+	
+	public void imprimaNome() {
+		
+		nome = JOptionPane.showInputDialog(null, "Informe um nome: ", "SENAI Taguatinga", 3);
+		
+		if (nome.length() > 3) {
+			
+			caracter1 = nome.charAt(0);
+			ultimo = nome.substring (nome.length() - 1);
+			caracter13 = nome.substring(0 , 3);
+			caracter4 = nome.charAt(3);
+			
+			JOptionPane.showMessageDialog(null, "NOME: " + nome +
+					"\nPRIMEIRO CHAR: " + caracter1 +
+					"\nÚLTIMO CHAR: " + ultimo +
+					"\nPRIMEIRO AO TERCEIRO CHAR: " + caracter13 +
+					"\nQUARTO CHAR: " + caracter4 , "SENAI Taguatinga", 1);
+		} else {
+			
+			JOptionPane.showMessageDialog(null, "O nome deve ter mais de 3 caracteres!",
+					"SENAI Taguatinga", 2);
+		}
+		
+	}
+}
+/*
+ * Entrar com um nome e imprimir
+Todo nome
+Primeiro caractere
+Ultimo caractere
+Do primeiro ate o terceiro
+Quarto caractere
+Todos menos o primeiro
+Os dois últimos
+*/
